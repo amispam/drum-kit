@@ -1,0 +1,77 @@
+body{
+    text-align:center;
+    background-color: aquamarine;
+}
+h1{
+    font-size:5rem;
+    font-family:"Arvo", cursive;
+    color:orange;
+    text-shadow:3px 0 brown;
+}
+
+.parent{
+    margin:10% auto;
+}
+
+footer{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:800;
+    color:purple;
+}
+
+.drum{
+    display:inline-block;
+    font-size:5rem;
+    font-family:"Arvo", cursive;
+    outline:none;
+    line-height: 2;
+    font-weight:900;
+    border-radius:15px;
+    width:150px;
+    height:150px;
+    text-align: center;
+    margin:10px;
+    border:none;
+    color:orange;
+    text-shadow: 3px 3px 3px black;
+    background-color:white;
+}
+
+.clicked{
+    color:white;
+}
+
+.w{
+    background-image: url("../images/crash.png");
+    background-size:contain;
+}
+.a{
+    background-image: url("../images/kick.png");
+    background-size: contain;
+}
+.s{
+    background-image: url("../images/snare.png");
+    background-size: contain;
+}
+.d{
+    background-image: url("../images/tom1.png");
+    background-size: contain;
+}
+.j{
+    background-image: url("../images/tom2.png");
+    background-size: contain;
+}
+.k{
+    background-image: url("../images/tom3.png");
+    background-size: contain;
+}
+.l{
+    background-image: url("../images/tom4.png");
+    background-size: contain;
+}
+
+
+.flashed{
+    color:lime;
+    opacity:0.5;
+}
